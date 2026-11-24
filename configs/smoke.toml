@@ -1,0 +1,29 @@
+# Quick generator run with few claims per cell, used by the automated tests.
+seed = 7
+
+[level.1]
+kbs = 4
+claims_per_cell = 20
+noise_ratio = 0.2
+groups = ["direct_fact", "rule_chain", "modal"]
+
+[level.2]
+kbs = 4
+claims_per_cell = 12
+noise_ratio = 0.5
+groups = [
+    "direct_fact", "rule_chain", "modal",
+    "negation", "conjunction", "disjunction", "iff", "exception", "time",
+]
+
+[level.3]
+kbs = 4
+claims_per_cell = 8
+noise_ratio = 0.75
+noise_style = "similar"
+check = "sliced"
+groups = [
+    "direct_fact", "rule_chain", "modal",
+    "negation", "conjunction", "disjunction", "iff", "exception", "time",
+    "relation", "exists", "counting", "universal", "shared_chain",
+]

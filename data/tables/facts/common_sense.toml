@@ -1,0 +1,370 @@
+# Curated table - common sense.
+# Everyday objects and phenomena, under ordinary conditions.
+category = "common_sense"
+
+[[row]]
+id = "dropped_stone"
+subject = "a dropped stone"
+true = "falls to the ground"
+false = ["rises into the sky", "floats in the air"]
+
+[[row]]
+id = "ice_in_sun"
+subject = "an ice cube left in the sun"
+true = "melts"
+false = ["grows larger", "turns into stone"]
+
+[[row]]
+id = "goldfish_habitat"
+subject = "a goldfish"
+true = "lives in water"
+false = ["lives in the desert", "lives in a tree"]
+
+[[row]]
+id = "night_sky"
+subject = "the sky at midnight"
+true = "is dark"
+false = ["is bright blue"]
+
+[[row]]
+id = "dropped_glass"
+subject = "a glass dropped on a stone floor"
+true = "breaks"
+false = ["bounces back up", "turns into water"]
+
+[[row]]
+id = "dropped_egg"
+subject = "a raw egg dropped on the floor"
+true = "breaks"
+false = ["bounces like a ball"]
+
+[[row]]
+id = "rubber_ball"
+subject = "a rubber ball dropped on the floor"
+true = "bounces"
+false = ["melts", "explodes"]
+
+[[row]]
+id = "knife_sharp"
+subject = "a kitchen knife"
+true = "is sharp"
+false = ["is soft like a pillow"]
+
+[[row]]
+id = "feather_light"
+subject = "a feather"
+true = "is light"
+false = ["is heavier than a car"]
+
+[[row]]
+id = "rock_heavy"
+subject = "a big rock"
+true = "is heavy"
+false = ["is lighter than a feather"]
+
+[[row]]
+id = "helium_balloon"
+subject = "a helium balloon"
+true = "rises when released"
+false = ["sinks when released"]
+
+[[row]]
+id = "candle_light"
+subject = "a burning candle"
+true = "gives light"
+false = ["makes the room darker"]
+
+[[row]]
+id = "snow_warm"
+subject = "snow in warm weather"
+true = "melts"
+false = ["turns into sand"]
+
+[[row]]
+id = "car_fuel"
+subject = "a petrol car"
+true = "needs fuel to run"
+false = ["runs on water from the tap"]
+
+[[row]]
+id = "sponge_water"
+subject = "a dry sponge"
+true = "absorbs water"
+false = ["repels all water"]
+
+[[row]]
+id = "wood_floats"
+subject = "a piece of wood"
+true = "floats on water"
+false = ["sinks to the bottom of a pond"]
+
+[[row]]
+id = "iron_nail"
+subject = "an iron nail"
+true = "sinks in water"
+false = ["floats on water"]
+
+[[row]]
+id = "paper_burns"
+subject = "paper"
+true = "burns in a fire"
+false = ["freezes in a fire"]
+
+[[row]]
+id = "fridge_cold"
+subject = "a refrigerator"
+true = "keeps food cold"
+false = ["keeps food hot"]
+
+[[row]]
+id = "oven_hot"
+subject = "an oven"
+true = "heats food"
+false = ["freezes food"]
+
+[[row]]
+id = "freezer_ice"
+subject = "a freezer"
+true = "turns water into ice"
+false = ["turns water into steam"]
+
+[[row]]
+id = "umbrella_rain"
+subject = "an umbrella"
+true = "protects from the rain"
+false = ["makes the rain heavier"]
+
+[[row]]
+id = "clock_time"
+subject = "a clock"
+true = "shows the time"
+false = ["shows the weather"]
+
+[[row]]
+id = "key_lock"
+subject = "a key"
+true = "opens a lock"
+false = ["cooks food"]
+
+[[row]]
+id = "pen_writes"
+subject = "a pen"
+true = "is used for writing"
+false = ["is used for swimming"]
+
+[[row]]
+id = "scissors_cut"
+subject = "a pair of scissors"
+true = "cuts paper"
+false = ["glues paper together"]
+
+[[row]]
+id = "bicycle_wheels"
+subject = "a bicycle"
+true = "has two wheels"
+false = ["has six wheels", "has ten wheels"]
+
+[[row]]
+id = "car_wheels"
+subject = "a car"
+true = "has four wheels"
+false = ["has one wheel", "has twelve wheels"]
+
+[[row]]
+id = "chair_use"
+subject = "a chair"
+true = "is used for sitting"
+false = ["is used for flying"]
+
+[[row]]
+id = "bed_use"
+subject = "a bed"
+true = "is used for sleeping"
+false = ["is used for cooking"]
+
+[[row]]
+id = "book_pages"
+subject = "a book"
+true = "has pages"
+false = ["has wheels", "has wings"]
+
+[[row]]
+id = "lamp_light"
+subject = "a lamp"
+true = "gives light"
+false = ["gives music"]
+
+[[row]]
+id = "mirror_reflection"
+subject = "a mirror"
+true = "shows a reflection"
+false = ["shows the future"]
+
+[[row]]
+id = "soap_clean"
+subject = "soap"
+true = "is used for washing"
+false = ["is used for painting walls"]
+
+[[row]]
+id = "ladder_use"
+subject = "a ladder"
+true = "is used for climbing"
+false = ["is used for swimming"]
+
+[[row]]
+id = "cup_use"
+subject = "a cup"
+true = "holds drinks"
+false = ["holds cars"]
+
+[[row]]
+id = "magnet_iron"
+subject = "a magnet"
+true = "attracts iron"
+false = ["attracts wood", "attracts water"]
+
+[[row]]
+id = "ball_shape"
+subject = "a tennis ball"
+true = "is round"
+false = ["is square", "is flat"]
+
+[[row]]
+id = "window_glass"
+subject = "window glass"
+true = "is transparent"
+false = ["is completely black"]
+
+[[row]]
+id = "coat_warm"
+subject = "a winter coat"
+true = "keeps a person warm"
+false = ["makes a person colder"]
+
+[[row]]
+id = "milk_colour"
+subject = "cow's milk"
+true = "is white"
+false = ["is green", "is black"]
+
+[[row]]
+id = "salt_taste"
+subject = "salt"
+true = "tastes salty"
+false = ["tastes sweet"]
+
+[[row]]
+id = "sugar_taste"
+subject = "sugar"
+true = "tastes sweet"
+false = ["tastes bitter", "tastes salty"]
+
+[[row]]
+id = "lemon_taste"
+subject = "a lemon"
+true = "tastes sour"
+false = ["tastes sweet like honey"]
+
+[[row]]
+id = "smoke_rises"
+subject = "smoke from a fire"
+true = "rises"
+false = ["falls like rain"]
+
+[[row]]
+id = "ice_floats"
+subject = "an ice cube"
+true = "floats on water"
+false = ["sinks in water"]
+
+[[row]]
+id = "boiling_water_hot"
+subject = "boiling water"
+true = "is hot"
+false = ["is cold"]
+
+[[row]]
+id = "baby_size"
+subject = "a newborn baby"
+kind = "person"
+true = "is smaller than an adult"
+false = ["is taller than an adult"]
+
+[[row]]
+id = "night_sleep"
+subject = "night"
+true = "comes after the evening"
+false = ["comes after the morning"]
+
+[[row]]
+id = "morning_after_night"
+subject = "the morning"
+true = "comes after the night"
+false = ["comes after the afternoon"]
+
+[[row]]
+id = "monday_after_sunday"
+subject = "Monday"
+true = "comes after Sunday"
+false = ["comes after Wednesday"]
+
+[[row]]
+id = "summer_temperature"
+subject = "summer"
+true = "is warmer than winter"
+false = ["is colder than winter"]
+
+[[row]]
+id = "road_wet_rain"
+subject = "a road in the rain"
+true = "gets wet"
+false = ["stays dry"]
+
+[[row]]
+id = "plant_water"
+subject = "a plant without water"
+true = "dries up"
+false = ["grows faster"]
+
+[[row]]
+id = "bread_baked"
+subject = "bread"
+true = "is baked in an oven"
+false = ["is grown on trees"]
+
+[[row]]
+id = "shoe_foot"
+subject = "a shoe"
+true = "is worn on the foot"
+false = ["is worn on the head"]
+
+[[row]]
+id = "hat_head"
+subject = "a hat"
+true = "is worn on the head"
+false = ["is worn on the foot"]
+
+[[row]]
+id = "phone_call"
+subject = "a telephone"
+true = "is used for calling people"
+false = ["is used for cooking soup"]
+
+[[row]]
+id = "toothbrush_use"
+subject = "a toothbrush"
+true = "is used for cleaning teeth"
+false = ["is used for painting houses"]
+
+[[row]]
+id = "train_tracks"
+subject = "a train"
+true = "runs on tracks"
+false = ["runs on clouds"]
+
+[[row]]
+id = "boat_water"
+subject = "a boat"
+true = "floats on water"
+false = ["flies above the clouds"]

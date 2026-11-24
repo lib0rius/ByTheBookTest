@@ -1,0 +1,255 @@
+# Curated table: well-known classes and actions, for "can" and "does".
+#
+# world_can  in the real world a member of the class is able to do the action
+# world_does in the real world a member of the class usually does it
+category = "nature"
+
+# --- animals -----------------------------------------------------------------------------------
+
+[[row]]
+id = "penguin_fly"
+singular = "penguin"
+plural = "penguins"
+verb = "fly"
+third = "flies"
+world_can = false
+world_does = false
+
+[[row]]
+id = "cow_fly"
+singular = "cow"
+plural = "cows"
+verb = "fly"
+third = "flies"
+world_can = false
+world_does = false
+
+[[row]]
+id = "elephant_fly"
+singular = "elephant"
+plural = "elephants"
+verb = "fly"
+third = "flies"
+world_can = false
+world_does = false
+
+[[row]]
+id = "turtle_fly"
+singular = "turtle"
+plural = "turtles"
+verb = "fly"
+third = "flies"
+world_can = false
+world_does = false
+
+[[row]]
+id = "snake_walk"
+singular = "snake"
+plural = "snakes"
+verb = "walk"
+third = "walks"
+world_can = false
+world_does = false
+
+[[row]]
+id = "fish_walk"
+singular = "goldfish"
+plural = "goldfish"
+verb = "climb trees"
+third = "climbs trees"
+world_can = false
+world_does = false
+
+[[row]]
+id = "dog_talk"
+singular = "dog"
+plural = "dogs"
+verb = "speak English"
+third = "speaks English"
+world_can = false
+world_does = false
+
+[[row]]
+id = "fish_swim"
+singular = "fish"
+plural = "fish"
+verb = "swim"
+third = "swims"
+world_can = true
+world_does = true
+
+[[row]]
+id = "dog_bark"
+singular = "dog"
+plural = "dogs"
+verb = "bark"
+third = "barks"
+world_can = true
+world_does = true
+
+[[row]]
+id = "horse_run"
+singular = "horse"
+plural = "horses"
+verb = "run"
+third = "runs"
+world_can = true
+world_does = true
+
+[[row]]
+id = "eagle_fly"
+singular = "eagle"
+plural = "eagles"
+verb = "fly"
+third = "flies"
+world_can = true
+world_does = true
+
+[[row]]
+id = "cat_climb"
+singular = "cat"
+plural = "cats"
+verb = "climb trees"
+third = "climbs trees"
+world_can = true
+world_does = true
+
+[[row]]
+id = "duck_swim"
+singular = "duck"
+plural = "ducks"
+verb = "swim"
+third = "swims"
+world_can = true
+world_does = true
+
+[[row]]
+id = "frog_jump"
+singular = "frog"
+plural = "frogs"
+verb = "jump"
+third = "jumps"
+world_can = true
+world_does = true
+
+# --- everyday objects --------------------------------------------------------------------------
+
+[[row]]
+id = "car_fly"
+category = "common_sense"
+singular = "car"
+plural = "cars"
+verb = "fly"
+third = "flies"
+world_can = false
+world_does = false
+
+[[row]]
+id = "bicycle_swim"
+category = "common_sense"
+singular = "bicycle"
+plural = "bicycles"
+verb = "swim"
+third = "swims"
+world_can = false
+world_does = false
+
+[[row]]
+id = "stone_float"
+category = "common_sense"
+singular = "brick"
+plural = "bricks"
+verb = "float on water"
+third = "floats on water"
+world_can = false
+world_does = false
+
+[[row]]
+id = "chair_walk"
+category = "common_sense"
+singular = "chair"
+plural = "chairs"
+verb = "walk"
+third = "walks"
+world_can = false
+world_does = false
+
+[[row]]
+id = "book_speak"
+category = "common_sense"
+singular = "book"
+plural = "books"
+verb = "sing"
+third = "sings"
+world_can = false
+world_does = false
+
+[[row]]
+id = "piano_fly"
+category = "common_sense"
+singular = "piano"
+plural = "pianos"
+verb = "fly"
+third = "flies"
+world_can = false
+world_does = false
+
+[[row]]
+id = "boat_float"
+category = "common_sense"
+singular = "boat"
+plural = "boats"
+verb = "float on water"
+third = "floats on water"
+world_can = true
+world_does = true
+
+[[row]]
+id = "ball_roll"
+category = "common_sense"
+singular = "ball"
+plural = "balls"
+verb = "roll"
+third = "rolls"
+world_can = true
+world_does = true
+
+[[row]]
+id = "knife_cut"
+category = "common_sense"
+singular = "knife"
+plural = "knives"
+verb = "cut bread"
+third = "cuts bread"
+world_can = true
+world_does = true
+
+[[row]]
+id = "plane_fly"
+category = "common_sense"
+singular = "plane"
+plural = "planes"
+verb = "fly"
+third = "flies"
+world_can = true
+world_does = true
+
+[[row]]
+id = "train_carry"
+category = "common_sense"
+singular = "train"
+plural = "trains"
+verb = "carry passengers"
+third = "carries passengers"
+world_can = true
+world_does = true
+
+[[row]]
+id = "candle_burn"
+category = "common_sense"
+singular = "candle"
+plural = "candles"
+verb = "burn"
+third = "burns"
+world_can = true
+world_does = true

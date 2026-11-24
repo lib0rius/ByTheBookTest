@@ -1,0 +1,25 @@
+# Knowledge probe for d1-2B: which facts of the curated tables does the model know, with no rulebook?
+# Same settings as configs/d1-2b.toml; only the task ("world") and the dataset change. The dataset is
+# written by
+#   bythebooktest probe build --out out/world-probe
+# and the analysis is
+#   bythebooktest probe analyze <out>/d1-2b-world <out>/d1-2b
+
+run_id = "d1-2b-world"
+out = "runs"
+datasets = ["dataset/world-probe"]
+task = "world"
+seed = 42
+claim_timeout_s = 900
+
+[server]
+binary = "llama-server"
+ctx_size = 128000
+parallel = 4
+reasoning = false
+extra_args = ["--cache-ram", "8192", "-b", "32768", "-ub", "32768", "-fa", "on"]
+
+[[models]]
+name = "d1-2B"
+path = "models/d1-2B-Q8_0.gguf"
+kind = "systemone"

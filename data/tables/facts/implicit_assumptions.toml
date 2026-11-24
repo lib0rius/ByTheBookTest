@@ -1,0 +1,452 @@
+# Curated table - implicit assumptions.
+#
+# true  holds under the conditions everyone takes for granted (base 10, Celsius, sea level,
+#       northern hemisphere, flat geometry, 24-hour clock, ...)
+# false holds only if one of those conditions changes, without saying so: false in the real world
+# traps the same false statement with its condition written: true in the real world
+#
+# For an UNKNOWN claim the rulebook holds the trap ("One plus one is written as 10 in base 2") and the
+# claim is the version without the condition ("One plus one is written as 10"): the rulebook does not say
+# which base is used.
+category = "implicit_assumptions"
+
+# --- number bases ------------------------------------------------------------------------------
+
+[[row]]
+id = "one_plus_one_written"
+subject = "one plus one"
+true = "is written as 2"
+false = ["is written as 10"]
+traps = ["is written as 10 in base 2"]
+
+[[row]]
+id = "two_written"
+subject = "the number two"
+true = "is written as 2"
+false = ["is written as 10"]
+traps = ["is written as 10 in base 2"]
+
+[[row]]
+id = "three_written"
+subject = "the number three"
+true = "is written as 3"
+false = ["is written as 11"]
+traps = ["is written as 11 in base 2"]
+
+[[row]]
+id = "four_written"
+subject = "the number four"
+true = "is written as 4"
+false = ["is written as 100"]
+traps = ["is written as 100 in base 2"]
+
+[[row]]
+id = "five_written"
+subject = "the number five"
+true = "is written as 5"
+false = ["is written as 101"]
+traps = ["is written as 101 in base 2"]
+
+[[row]]
+id = "six_written"
+subject = "the number six"
+true = "is written as 6"
+false = ["is written as 110"]
+traps = ["is written as 110 in base 2"]
+
+[[row]]
+id = "seven_written"
+subject = "the number seven"
+true = "is written as 7"
+false = ["is written as 111"]
+traps = ["is written as 111 in base 2"]
+
+[[row]]
+id = "eight_written"
+subject = "the number eight"
+true = "is written as 8"
+false = ["is written as 1000"]
+traps = ["is written as 1000 in base 2"]
+
+[[row]]
+id = "nine_written"
+subject = "the number nine"
+true = "is written as 9"
+false = ["is written as 1001"]
+traps = ["is written as 1001 in base 2"]
+
+[[row]]
+id = "ten_written"
+subject = "the number ten"
+true = "is written as 10"
+false = ["is written as 1010"]
+traps = ["is written as 1010 in base 2"]
+
+[[row]]
+id = "eleven_written"
+subject = "the number eleven"
+true = "is written as 11"
+false = ["is written as B"]
+traps = ["is written as B in base 16"]
+
+[[row]]
+id = "twelve_written"
+subject = "the number twelve"
+true = "is written as 12"
+false = ["is written as C"]
+traps = ["is written as C in base 16"]
+
+[[row]]
+id = "fifteen_written"
+subject = "the number fifteen"
+true = "is written as 15"
+false = ["is written as F"]
+traps = ["is written as F in base 16"]
+
+[[row]]
+id = "sixteen_written"
+subject = "the number sixteen"
+true = "is written as 16"
+false = ["is written as 10"]
+traps = ["is written as 10 in base 16"]
+
+[[row]]
+id = "twenty_written"
+subject = "the number twenty"
+true = "is written as 20"
+false = ["is written as 14"]
+traps = ["is written as 14 in base 16"]
+
+[[row]]
+id = "hundred_written"
+subject = "the number one hundred"
+true = "is written as 100"
+false = ["is written as 64"]
+traps = ["is written as 64 in base 16"]
+
+[[row]]
+id = "seven_plus_five_written"
+subject = "seven plus five"
+true = "is written as 12"
+false = ["is written as 14"]
+traps = ["is written as 14 in base 8"]
+
+[[row]]
+id = "three_plus_three_written"
+subject = "three plus three"
+true = "is written as 6"
+false = ["is written as 12"]
+traps = ["is written as 12 in base 4"]
+
+[[row]]
+id = "eight_written_octal"
+subject = "the number eight"
+true = "has one digit"
+false = ["has two digits"]
+traps = ["has two digits in base 8"]
+
+# --- arithmetic with conditions ----------------------------------------------------------------
+
+[[row]]
+id = "twelve_plus_one_clock"
+subject = "twelve plus one"
+true = "equals thirteen"
+false = ["equals one"]
+traps = ["equals one on a twelve-hour clock"]
+
+[[row]]
+id = "eleven_plus_two_clock"
+subject = "eleven plus two"
+true = "equals thirteen"
+false = ["equals one"]
+traps = ["equals one on a twelve-hour clock"]
+
+[[row]]
+id = "one_plus_two_mod"
+subject = "one plus two"
+true = "equals three"
+false = ["equals zero"]
+traps = ["equals zero in arithmetic modulo three"]
+
+[[row]]
+id = "five_divided_two"
+subject = "five divided by two"
+true = "equals two and a half"
+false = ["equals two"]
+traps = ["equals two in integer division"]
+
+[[row]]
+id = "minus_one_root"
+subject = "minus one"
+true = ["has no real square root", "has a real square root"]
+false = ["has a square root"]
+traps = ["has a square root in the complex numbers"]
+
+[[row]]
+id = "dozen_count"
+subject = "a dozen"
+true = "is twelve"
+false = ["is thirteen"]
+traps = ["is thirteen when it is a baker's dozen"]
+
+[[row]]
+id = "billion_size"
+subject = "a billion"
+true = "is a thousand million"
+false = ["is a million million"]
+traps = ["is a million million in old British usage"]
+
+# --- units of measurement ----------------------------------------------------------------------
+
+[[row]]
+id = "water_freezes"
+subject = "water"
+true = "freezes at 0 degrees"
+false = ["freezes at 32 degrees"]
+traps = ["freezes at 32 degrees Fahrenheit"]
+
+[[row]]
+id = "water_boils_units"
+subject = "water"
+true = "boils at 100 degrees"
+false = ["boils at 212 degrees"]
+traps = ["boils at 212 degrees Fahrenheit"]
+
+[[row]]
+id = "body_temperature"
+subject = "a healthy human body"
+true = "has a temperature of about 37 degrees"
+false = ["has a temperature of about 98 degrees"]
+traps = ["has a temperature of about 98 degrees Fahrenheit"]
+
+[[row]]
+id = "thirty_degrees"
+subject = "a temperature of 30 degrees"
+true = "is warm"
+false = ["is below freezing"]
+traps = ["is below freezing in Fahrenheit"]
+
+[[row]]
+id = "marathon_length"
+subject = "a marathon"
+true = "is about 42 kilometers long"
+false = ["is about 26 kilometers long"]
+traps = ["is about 26 miles long"]
+
+# --- place and altitude ------------------------------------------------------------------------
+
+[[row]]
+id = "water_boils_altitude"
+subject = "water"
+true = "boils at 100 degrees Celsius"
+false = ["boils at 70 degrees Celsius"]
+traps = ["boils at 70 degrees Celsius at the top of Mount Everest"]
+
+[[row]]
+id = "water_boils_pressure"
+subject = "water"
+true = "boils at 100 degrees Celsius in an open pot"
+false = ["boils at 120 degrees Celsius"]
+traps = ["boils at 120 degrees Celsius in a pressure cooker"]
+
+[[row]]
+id = "christmas_season"
+subject = "Christmas"
+true = "is in winter"
+false = ["is in summer"]
+traps = ["is in summer in Australia"]
+
+[[row]]
+id = "july_season"
+subject = "July"
+true = "is in summer"
+false = ["is in winter"]
+traps = ["is in winter in Argentina"]
+
+[[row]]
+id = "january_season"
+subject = "January"
+true = "is in winter"
+false = ["is in summer"]
+traps = ["is in summer in New Zealand"]
+
+[[row]]
+id = "summer_temperature_place"
+subject = "summer"
+true = "is warm"
+false = ["is freezing cold"]
+traps = ["is freezing cold in Antarctica"]
+
+[[row]]
+id = "north_star"
+subject = "the North Star"
+true = "is visible at night"
+false = ["is invisible at night"]
+traps = ["is invisible from Australia"]
+
+[[row]]
+id = "noon_london"
+subject = "noon in London"
+true = "is in the daytime"
+false = ["is in the middle of the night"]
+traps = ["is in the middle of the night in New Zealand"]
+
+[[row]]
+id = "day_hours"
+subject = "a day"
+true = "has 24 hours"
+false = ["has 23 hours"]
+traps = ["has 23 hours when the clocks change for summer time"]
+
+[[row]]
+id = "weekend_days"
+subject = "the weekend"
+true = "is Saturday and Sunday"
+false = ["is Friday and Saturday"]
+traps = ["is Friday and Saturday in Saudi Arabia"]
+
+[[row]]
+id = "week_start"
+subject = "the first day of the week"
+true = "is Monday"
+false = ["is Sunday"]
+traps = ["is Sunday in the United States"]
+
+# --- non-flat geometry and physics away from the Earth ------------------------------------------
+
+[[row]]
+id = "triangle_angles"
+subject = "the sum of the angles of a triangle"
+true = "is 180 degrees"
+false = ["is 270 degrees"]
+traps = ["is 270 degrees on a sphere"]
+
+[[row]]
+id = "parallel_lines"
+subject = "a pair of parallel lines"
+true = ["never meets", "meets somewhere"]
+false = ["meets at one point"]
+traps = ["meets at one point on a sphere"]
+
+[[row]]
+id = "hammer_feather"
+subject = "a hammer"
+true = "falls faster than a feather"
+false = ["falls as fast as a feather"]
+traps = ["falls as fast as a feather in a vacuum"]
+
+[[row]]
+id = "apple_floats"
+subject = "a dropped apple"
+true = "falls to the floor"
+false = ["floats in the air"]
+traps = ["floats in the air on the International Space Station"]
+
+[[row]]
+id = "candle_flame_shape"
+subject = "a candle flame"
+true = "points upward"
+false = ["is round like a ball"]
+traps = ["is round like a ball in weightlessness"]
+
+[[row]]
+id = "sunset_direction"
+subject = "the Sun"
+true = "sets in the west"
+false = ["sets in the east"]
+traps = ["sets in the east on Venus"]
+
+[[row]]
+id = "sky_colour_mars"
+subject = "the daytime sky"
+true = "is blue"
+false = ["is reddish"]
+traps = ["is reddish on Mars"]
+
+# --- calendar, hours and language --------------------------------------------------------------
+
+[[row]]
+id = "february_days"
+subject = "February"
+true = "has 28 days"
+false = ["has 29 days"]
+traps = ["has 29 days in a leap year"]
+
+[[row]]
+id = "year_days"
+subject = "a year"
+true = "has 365 days"
+false = ["has 366 days"]
+traps = ["has 366 days when it is a leap year"]
+
+[[row]]
+id = "year_start"
+subject = "the year"
+true = "starts in January"
+false = ["starts in September"]
+traps = ["starts in September for many schools"]
+
+[[row]]
+id = "hour_hand_turns"
+subject = "the hour hand of a clock"
+true = "makes two full turns a day"
+false = ["makes one full turn a day"]
+traps = ["makes one full turn a day on a 24-hour clock"]
+
+[[row]]
+id = "word_gift"
+subject = "the word gift"
+true = "means a present"
+false = ["means poison"]
+traps = ["means poison in German"]
+
+[[row]]
+id = "word_burro"
+subject = "the word burro"
+true = "means a small donkey"
+false = ["means butter"]
+traps = ["means butter in Italian"]
+
+[[row]]
+id = "football_shape"
+subject = "a football"
+true = "is round"
+false = ["is oval"]
+traps = ["is oval in American football"]
+
+# --- materials and states ----------------------------------------------------------------------
+
+[[row]]
+id = "stone_sinks"
+subject = "a stone"
+true = "sinks in water"
+false = ["floats on water"]
+traps = ["floats on water when it is pumice"]
+
+[[row]]
+id = "ship_floats"
+subject = "a ship"
+true = "floats"
+false = ["sinks"]
+traps = ["sinks when its hull is broken"]
+
+[[row]]
+id = "rain_liquid"
+subject = "rain"
+true = "falls as liquid water"
+false = ["falls as snow"]
+traps = ["falls as snow when it is very cold"]
+
+[[row]]
+id = "moon_shape"
+subject = "the Moon"
+true = "looks round when it is full"
+false = ["looks like a thin crescent"]
+traps = ["looks like a thin crescent a few days after the new moon"]
+
+[[row]]
+id = "tree_shadow"
+subject = "the shadow of a tree"
+true = "is short at noon"
+false = ["is very long"]
+traps = ["is very long in the early morning"]

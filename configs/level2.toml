@@ -1,0 +1,13 @@
+# Level 2 (medium rulebooks): 4 rulebooks, 100 claims per reasoning group, half of the statements noise.
+# The released dataset is this one pruned to 10% noise:
+#   bythebooktest prune --source out/level2 --noise-ratio 0.1 --out out/level2-noise10
+seed = 42
+
+[level.2]
+kbs = 4
+claims_per_cell = 100
+noise_ratio = 0.5
+groups = [
+    "direct_fact", "rule_chain", "modal",
+    "negation", "conjunction", "disjunction", "iff", "exception", "time",
+]

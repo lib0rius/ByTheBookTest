@@ -1,0 +1,352 @@
+# Curated table - mathematics and geometry.
+# Elementary facts only, in the decimal system and in everyday flat geometry. Cases that depend on a
+# condition (base, sphere, clock) are in implicit_assumptions.toml.
+category = "math_geometry"
+
+# --- arithmetic --------------------------------------------------------------------------------
+
+[[row]]
+id = "one_plus_one"
+subject = "one plus one"
+true = "equals two"
+false = ["equals three", "equals five"]
+
+[[row]]
+id = "two_plus_two"
+subject = "two plus two"
+true = "equals four"
+false = ["equals five", "equals seven"]
+
+[[row]]
+id = "three_plus_three"
+subject = "three plus three"
+true = "equals six"
+false = ["equals nine", "equals eight"]
+
+[[row]]
+id = "five_plus_five"
+subject = "five plus five"
+true = "equals ten"
+false = ["equals eleven", "equals fifteen"]
+
+[[row]]
+id = "ten_minus_one"
+subject = "ten minus one"
+true = "equals nine"
+false = ["equals eleven", "equals zero"]
+
+[[row]]
+id = "two_times_three"
+subject = "two times three"
+true = "equals six"
+false = ["equals five", "equals nine"]
+
+[[row]]
+id = "two_times_five"
+subject = "two times five"
+true = "equals ten"
+false = ["equals seven", "equals twenty"]
+
+[[row]]
+id = "three_times_three"
+subject = "three times three"
+true = "equals nine"
+false = ["equals six", "equals twelve"]
+
+[[row]]
+id = "ten_times_ten"
+subject = "ten times ten"
+true = "equals one hundred"
+false = ["equals twenty", "equals one thousand"]
+
+[[row]]
+id = "ten_divided_two"
+subject = "ten divided by two"
+true = "equals five"
+false = ["equals eight", "equals twenty"]
+
+[[row]]
+id = "half_of_ten"
+subject = "half of ten"
+true = "is five"
+false = ["is four", "is twenty"]
+
+[[row]]
+id = "double_four"
+subject = "double four"
+true = "is eight"
+false = ["is six", "is sixteen"]
+
+[[row]]
+id = "zero_plus_seven"
+subject = "zero plus seven"
+true = "equals seven"
+false = ["equals zero", "equals seventy"]
+
+[[row]]
+id = "one_times_eight"
+subject = "one times eight"
+true = "equals eight"
+false = ["equals one", "equals nine"]
+
+[[row]]
+id = "hundred_minus_hundred"
+subject = "one hundred minus one hundred"
+true = "equals zero"
+false = ["equals one hundred", "equals one"]
+
+# --- numbers -----------------------------------------------------------------------------------
+
+[[row]]
+id = "two_parity"
+subject = "two"
+true = "is an even number"
+false = ["is an odd number"]
+
+[[row]]
+id = "three_parity"
+subject = "three"
+true = "is an odd number"
+false = ["is an even number"]
+
+[[row]]
+id = "four_parity"
+subject = "four"
+true = "is an even number"
+false = ["is an odd number"]
+
+[[row]]
+id = "nine_parity"
+subject = "nine"
+true = "is an odd number"
+false = ["is an even number"]
+
+[[row]]
+id = "ten_parity"
+subject = "ten"
+true = "is an even number"
+false = ["is an odd number"]
+
+[[row]]
+id = "seven_prime"
+subject = "seven"
+true = "is a prime number"
+false = ["is an even number", "is a multiple of three"]
+
+[[row]]
+id = "two_prime"
+subject = "two"
+true = "is a prime number"
+false = ["is a negative number"]
+
+[[row]]
+id = "six_divisible"
+subject = "six"
+true = "is divisible by three"
+false = ["is divisible by four", "is divisible by five"]
+
+[[row]]
+id = "hundred_vs_ten"
+subject = "one hundred"
+true = "is greater than ten"
+false = ["is smaller than ten", "is equal to ten"]
+
+[[row]]
+id = "million_vs_thousand"
+subject = "a million"
+true = "is greater than a thousand"
+false = ["is smaller than a thousand"]
+
+[[row]]
+id = "zero_vs_one"
+subject = "zero"
+true = "is smaller than one"
+false = ["is greater than one"]
+
+[[row]]
+id = "minus_five"
+subject = "minus five"
+true = "is a negative number"
+false = ["is a positive number"]
+
+[[row]]
+id = "half_vs_quarter"
+subject = "one half"
+true = "is greater than one quarter"
+false = ["is smaller than one quarter"]
+
+[[row]]
+id = "pi_value"
+subject = "the number pi"
+true = "is about 3.14"
+false = ["is about 2.5", "is exactly 4"]
+
+[[row]]
+id = "twelve_dozen"
+subject = "twelve"
+true = "is the number of months in a year"
+false = ["is the number of days in a week"]
+
+[[row]]
+id = "seven_week"
+subject = "seven"
+true = "is the number of days in a week"
+false = ["is the number of months in a year"]
+
+[[row]]
+id = "square_of_three"
+subject = "the square of three"
+true = "is nine"
+false = ["is six", "is three"]
+
+[[row]]
+id = "square_root_sixteen"
+subject = "the square root of sixteen"
+true = "is four"
+false = ["is eight", "is two"]
+
+[[row]]
+id = "one_digit"
+subject = "the number 5"
+true = "has one digit"
+false = ["has three digits"]
+
+[[row]]
+id = "hundred_digits"
+subject = "the number 100"
+true = "has three digits"
+false = ["has one digit", "has five digits"]
+
+# --- geometry ----------------------------------------------------------------------------------
+
+[[row]]
+id = "triangle_sides"
+subject = "a triangle"
+true = "has three sides"
+false = ["has four sides", "has five sides"]
+
+[[row]]
+id = "square_sides"
+subject = "a square"
+true = "has four sides"
+false = ["has three sides", "has six sides"]
+
+[[row]]
+id = "square_equal_sides"
+subject = "a square"
+true = "has four equal sides"
+false = ["has two long sides and two short sides"]
+
+[[row]]
+id = "pentagon_sides"
+subject = "a pentagon"
+true = "has five sides"
+false = ["has three sides", "has eight sides"]
+
+[[row]]
+id = "hexagon_sides"
+subject = "a hexagon"
+true = "has six sides"
+false = ["has four sides", "has ten sides"]
+
+[[row]]
+id = "octagon_sides"
+subject = "an octagon"
+true = "has eight sides"
+false = ["has five sides", "has three sides"]
+
+[[row]]
+id = "circle_corners"
+subject = "a circle"
+true = ["has no corners", "has some corners"]
+false = ["has three corners", "has four corners"]
+
+[[row]]
+id = "circle_round"
+subject = "a circle"
+true = "is round"
+false = ["is square"]
+
+[[row]]
+id = "cube_faces"
+subject = "a cube"
+true = "has six faces"
+false = ["has four faces", "has ten faces"]
+
+[[row]]
+id = "cube_shape"
+subject = "a cube"
+true = "has square faces"
+false = ["has round faces", "has triangular faces"]
+
+[[row]]
+id = "sphere_shape"
+subject = "a sphere"
+true = "is round"
+false = ["is flat", "has corners"]
+
+[[row]]
+id = "right_angle"
+subject = "a right angle"
+true = "measures ninety degrees"
+false = ["measures forty degrees", "measures one hundred and eighty degrees"]
+
+[[row]]
+id = "straight_angle"
+subject = "a straight angle"
+true = "measures one hundred and eighty degrees"
+false = ["measures ninety degrees"]
+
+[[row]]
+id = "full_turn"
+subject = "a full turn"
+true = "measures three hundred and sixty degrees"
+false = ["measures one hundred degrees"]
+
+[[row]]
+id = "triangle_corners"
+subject = "a triangle"
+true = "has three corners"
+false = ["has five corners"]
+
+[[row]]
+id = "rectangle_angles"
+subject = "a rectangle"
+true = "has four right angles"
+false = ["has three right angles", ["has no right angles", "has some right angles"]]
+
+[[row]]
+id = "line_straight"
+subject = "a straight line"
+true = ["has no curves", "has some curves"]
+false = ["has many curves"]
+
+[[row]]
+id = "diameter_radius"
+subject = "the diameter of a circle"
+true = "is twice the radius"
+false = ["is half the radius", "is equal to the radius"]
+
+[[row]]
+id = "square_diagonal"
+subject = "the diagonal of a square"
+true = "is longer than its side"
+false = ["is shorter than its side"]
+
+[[row]]
+id = "triangle_equilateral"
+subject = "an equilateral triangle"
+true = "has three equal sides"
+false = ["has four equal sides", ["has no equal sides", "has some equal sides"]]
+
+[[row]]
+id = "cylinder_faces"
+subject = "a cylinder"
+true = "has two circular faces"
+false = ["has six square faces"]
+
+[[row]]
+id = "parallelogram_sides"
+subject = "a parallelogram"
+true = "has two pairs of parallel sides"
+false = [["has no parallel sides", "has some parallel sides"]]

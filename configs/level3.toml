@@ -1,0 +1,23 @@
+# Level 3 (long rulebooks): 4 rulebooks, 100 claims per reasoning group, three quarters of the statements
+# noise that looks like the useful statements. The released dataset is this one pruned to 20% noise:
+#   bythebooktest prune --source out/level3 --noise-ratio 0.2 --out out/level3-noise20
+seed = 42
+
+[level.3]
+kbs = 4
+claims_per_cell = 100
+noise_ratio = 0.75
+noise_style = "similar"
+check = "sliced"
+# The largest parts hold thousands of quantified rules: one Z3 check can take a few minutes. Groups of 3
+# claims per process keep every thread busy.
+z3_timeout_s = 900
+chunk = 3
+# A check can blow up in memory (internal Z3 error): a 3 GB limit per process keeps 32 processes under
+# 100 GB. A claim over the limit counts as undecided and is rebuilt.
+z3_memory_mb = 3000
+groups = [
+    "direct_fact", "rule_chain", "modal",
+    "negation", "conjunction", "disjunction", "iff", "exception", "time",
+    "relation", "exists", "counting", "universal", "shared_chain",
+]

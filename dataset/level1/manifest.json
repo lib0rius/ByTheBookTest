@@ -1,0 +1,73 @@
+{
+  "generator_version": "0.1.0",
+  "z3_version": "5.4.1",
+  "seed": 42,
+  "config": {
+    "seed": 42,
+    "level": {
+      "1": {
+        "kbs": 4,
+        "claims_per_cell": 100,
+        "noise_ratio": 0.0,
+        "groups": [
+          "direct_fact",
+          "rule_chain",
+          "modal"
+        ]
+      }
+    }
+  },
+  "tables_sha256": "494382072eeb8976e41c48b2065d4984a1a7b0dd157005e747a15ccb48b57776",
+  "kbs": {
+    "L1-KB1": {
+      "statements": 121,
+      "claims": 75,
+      "rebuilt": 0
+    },
+    "L1-KB2": {
+      "statements": 124,
+      "claims": 75,
+      "rebuilt": 0
+    },
+    "L1-KB3": {
+      "statements": 123,
+      "claims": 75,
+      "rebuilt": 0
+    },
+    "L1-KB4": {
+      "statements": 121,
+      "claims": 75,
+      "rebuilt": 0
+    }
+  },
+  "claims_total": 300,
+  "counts": {
+    "L1/direct_fact/FALSE/agree": 5,
+    "L1/direct_fact/FALSE/conflict": 18,
+    "L1/direct_fact/FALSE/neutral": 10,
+    "L1/direct_fact/TRUE/agree": 5,
+    "L1/direct_fact/TRUE/conflict": 18,
+    "L1/direct_fact/TRUE/neutral": 10,
+    "L1/direct_fact/UNKNOWN/neutral": 10,
+    "L1/direct_fact/UNKNOWN/unsupported_false": 12,
+    "L1/direct_fact/UNKNOWN/unsupported_true": 12,
+    "L1/modal/FALSE/agree": 5,
+    "L1/modal/FALSE/conflict": 18,
+    "L1/modal/FALSE/neutral": 10,
+    "L1/modal/TRUE/agree": 5,
+    "L1/modal/TRUE/conflict": 18,
+    "L1/modal/TRUE/neutral": 10,
+    "L1/modal/UNKNOWN/neutral": 10,
+    "L1/modal/UNKNOWN/unsupported_false": 12,
+    "L1/modal/UNKNOWN/unsupported_true": 12,
+    "L1/rule_chain/FALSE/agree": 5,
+    "L1/rule_chain/FALSE/conflict": 18,
+    "L1/rule_chain/FALSE/neutral": 10,
+    "L1/rule_chain/TRUE/agree": 5,
+    "L1/rule_chain/TRUE/conflict": 18,
+    "L1/rule_chain/TRUE/neutral": 10,
+    "L1/rule_chain/UNKNOWN/neutral": 10,
+    "L1/rule_chain/UNKNOWN/unsupported_false": 12,
+    "L1/rule_chain/UNKNOWN/unsupported_true": 12
+  }
+}

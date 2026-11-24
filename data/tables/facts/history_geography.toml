@@ -1,0 +1,428 @@
+# Curated table - history and geography.
+# true: true in the real world; false: false in the real world. Predicates in the third person singular.
+category = "history_geography"
+
+# --- capitals ----------------------------------------------------------------------------------
+
+[[row]]
+id = "paris_capital"
+subject = "Paris"
+true = "is the capital of France"
+false = ["is the capital of Germany", "is the capital of Japan"]
+
+[[row]]
+id = "berlin_capital"
+subject = "Berlin"
+true = "is the capital of Germany"
+false = ["is the capital of Spain", "is the capital of Brazil"]
+
+[[row]]
+id = "madrid_capital"
+subject = "Madrid"
+true = "is the capital of Spain"
+false = ["is the capital of Italy", "is the capital of Canada"]
+
+[[row]]
+id = "rome_capital"
+subject = "Rome"
+true = "is the capital of Italy"
+false = ["is the capital of France", "is the capital of Egypt"]
+
+[[row]]
+id = "london_capital"
+subject = "London"
+true = "is the capital of the United Kingdom"
+false = ["is the capital of Spain", "is the capital of China"]
+
+[[row]]
+id = "tokyo_capital"
+subject = "Tokyo"
+true = "is the capital of Japan"
+false = ["is the capital of China", "is the capital of Mexico"]
+
+[[row]]
+id = "moscow_capital"
+subject = "Moscow"
+true = "is the capital of Russia"
+false = ["is the capital of Greece", "is the capital of Argentina"]
+
+[[row]]
+id = "beijing_capital"
+subject = "Beijing"
+true = "is the capital of China"
+false = ["is the capital of India", "is the capital of Norway"]
+
+[[row]]
+id = "cairo_capital"
+subject = "Cairo"
+true = "is the capital of Egypt"
+false = ["is the capital of Sweden", "is the capital of Peru"]
+
+[[row]]
+id = "athens_capital"
+subject = "Athens"
+true = "is the capital of Greece"
+false = ["is the capital of Ireland", "is the capital of Japan"]
+
+[[row]]
+id = "washington_capital"
+subject = "Washington, D.C."
+true = "is the capital of the United States"
+false = ["is the capital of Australia", "is the capital of Portugal"]
+
+[[row]]
+id = "lisbon_capital"
+subject = "Lisbon"
+true = "is the capital of Portugal"
+false = ["is the capital of Poland", "is the capital of Kenya"]
+
+[[row]]
+id = "vienna_capital"
+subject = "Vienna"
+true = "is the capital of Austria"
+false = ["is the capital of Chile", "is the capital of Denmark"]
+
+[[row]]
+id = "dublin_capital"
+subject = "Dublin"
+true = "is the capital of Ireland"
+false = ["is the capital of Turkey", "is the capital of Brazil"]
+
+[[row]]
+id = "stockholm_capital"
+subject = "Stockholm"
+true = "is the capital of Sweden"
+false = ["is the capital of Italy", "is the capital of India"]
+
+[[row]]
+id = "oslo_capital"
+subject = "Oslo"
+true = "is the capital of Norway"
+false = ["is the capital of Egypt", "is the capital of Spain"]
+
+[[row]]
+id = "buenos_aires_capital"
+subject = "Buenos Aires"
+true = "is the capital of Argentina"
+false = ["is the capital of Germany", "is the capital of Russia"]
+
+[[row]]
+id = "mexico_city_capital"
+subject = "Mexico City"
+true = "is the capital of Mexico"
+false = ["is the capital of Japan", "is the capital of Finland"]
+
+[[row]]
+id = "new_delhi_capital"
+subject = "New Delhi"
+true = "is the capital of India"
+false = ["is the capital of France", "is the capital of Canada"]
+
+[[row]]
+id = "seoul_capital"
+subject = "Seoul"
+true = "is the capital of South Korea"
+false = ["is the capital of Austria", "is the capital of Mexico"]
+
+[[row]]
+id = "amsterdam_capital"
+subject = "Amsterdam"
+true = "is the capital of the Netherlands"
+false = ["is the capital of Greece", "is the capital of China"]
+
+[[row]]
+id = "warsaw_capital"
+subject = "Warsaw"
+true = "is the capital of Poland"
+false = ["is the capital of Portugal", "is the capital of Egypt"]
+
+# --- places and monuments ----------------------------------------------------------------------
+
+[[row]]
+id = "rome_country"
+subject = "Rome"
+true = "is in Italy"
+false = ["is in Australia", "is in Canada"]
+
+[[row]]
+id = "tokyo_country"
+subject = "Tokyo"
+true = "is in Japan"
+false = ["is in Brazil", "is in Egypt"]
+
+[[row]]
+id = "eiffel_city"
+subject = "the Eiffel Tower"
+true = "is in Paris"
+false = ["is in London", "is in Madrid"]
+
+[[row]]
+id = "liberty_city"
+subject = "the Statue of Liberty"
+true = "is in New York"
+false = ["is in Paris", "is in Sydney"]
+
+[[row]]
+id = "colosseum_city"
+subject = "the Colosseum"
+true = "is in Rome"
+false = ["is in Berlin", "is in Moscow"]
+
+[[row]]
+id = "big_ben_city"
+subject = "Big Ben"
+true = "is in London"
+false = ["is in Tokyo", "is in Rome"]
+
+[[row]]
+id = "taj_mahal_country"
+subject = "the Taj Mahal"
+true = "is in India"
+false = ["is in Spain", "is in Canada"]
+
+[[row]]
+id = "opera_house_country"
+subject = "the Sydney Opera House"
+true = "is in Australia"
+false = ["is in Germany", "is in Argentina"]
+
+[[row]]
+id = "pyramids_country"
+subject = "the Great Pyramid of Giza"
+true = "is in Egypt"
+false = ["is in Norway", "is in Japan"]
+
+[[row]]
+id = "pisa_tower_country"
+subject = "the Leaning Tower of Pisa"
+true = "is in Italy"
+false = ["is in Mexico", "is in Russia"]
+
+[[row]]
+id = "great_wall_country"
+subject = "the Great Wall"
+true = "is in China"
+false = ["is in Mexico", "is in Norway"]
+
+[[row]]
+id = "fuji_country"
+subject = "Mount Fuji"
+true = "is in Japan"
+false = ["is in Italy", "is in Kenya"]
+
+[[row]]
+id = "everest_continent"
+subject = "Mount Everest"
+true = "is in Asia"
+false = ["is in Africa", "is in South America"]
+
+[[row]]
+id = "kilimanjaro_continent"
+subject = "Mount Kilimanjaro"
+true = "is in Africa"
+false = ["is in Europe", "is in Antarctica"]
+
+[[row]]
+id = "amazon_continent"
+subject = "the Amazon River"
+true = "is in South America"
+false = ["is in Europe", "is in Australia"]
+
+[[row]]
+id = "thames_city"
+subject = "the River Thames"
+true = "flows through London"
+false = ["flows through Madrid", "flows through Tokyo"]
+
+[[row]]
+id = "sahara_continent"
+subject = "the Sahara"
+true = "is in Africa"
+false = ["is in Europe", "is in North America"]
+
+[[row]]
+id = "brazil_continent"
+subject = "Brazil"
+true = "is in South America"
+false = ["is in Europe", "is in Asia"]
+
+[[row]]
+id = "canada_continent"
+subject = "Canada"
+true = "is in North America"
+false = ["is in Africa", "is in Asia"]
+
+[[row]]
+id = "egypt_continent"
+subject = "Egypt"
+true = "is in Africa"
+false = ["is in South America", "is in Europe"]
+
+[[row]]
+id = "india_continent"
+subject = "India"
+true = "is in Asia"
+false = ["is in Europe", "is in North America"]
+
+[[row]]
+id = "australia_hemisphere"
+subject = "Australia"
+true = "is in the Southern Hemisphere"
+false = ["is in the Northern Hemisphere"]
+
+[[row]]
+id = "venice_canals"
+subject = "Venice"
+true = "has many canals"
+false = [["has no water", "has some water"]]
+
+[[row]]
+id = "nile_type"
+subject = "the Nile"
+true = "is a river"
+false = ["is a mountain", "is a desert"]
+
+[[row]]
+id = "pacific_type"
+subject = "the Pacific"
+true = "is an ocean"
+false = ["is a desert", "is a mountain"]
+
+# --- people ------------------------------------------------------------------------------------
+
+[[row]]
+id = "napoleon_birthplace"
+subject = "Napoleon"
+kind = "person"
+true = "was born in Corsica"
+false = ["was born in Australia", "was born in Japan"]
+
+[[row]]
+id = "napoleon_alive"
+subject = "Napoleon"
+kind = "person"
+true = "is dead"
+false = ["is alive"]
+
+[[row]]
+id = "napoleon_job"
+subject = "Napoleon"
+kind = "person"
+true = "was an emperor of France"
+false = ["was a pop singer", "was a king of Japan"]
+
+[[row]]
+id = "einstein_job"
+subject = "Albert Einstein"
+kind = "person"
+true = "was a physicist"
+false = ["was a pirate", "was a pop singer"]
+
+[[row]]
+id = "shakespeare_job"
+subject = "William Shakespeare"
+kind = "person"
+true = "was a playwright"
+false = ["was an astronaut", "was a chef"]
+
+[[row]]
+id = "columbus_job"
+subject = "Christopher Columbus"
+kind = "person"
+true = "was an explorer"
+false = ["was a pharaoh", "was a pianist"]
+
+[[row]]
+id = "lincoln_job"
+subject = "Abraham Lincoln"
+kind = "person"
+true = "was a president of the United States"
+false = ["was a king of England", "was a president of France"]
+
+[[row]]
+id = "mozart_job"
+subject = "Mozart"
+kind = "person"
+true = "was a composer"
+false = ["was a footballer", "was an astronaut"]
+
+[[row]]
+id = "beethoven_job"
+subject = "Beethoven"
+kind = "person"
+true = "was a composer"
+false = ["was a pilot", "was a boxer"]
+
+[[row]]
+id = "leonardo_mona_lisa"
+subject = "Leonardo da Vinci"
+kind = "person"
+# "painted" is a past tense: the negation is written in full.
+true = ["painted the Mona Lisa", "did not paint the Mona Lisa"]
+false = [
+  ["painted the Statue of Liberty", "did not paint the Statue of Liberty"],
+  "was a rock star",
+]
+
+[[row]]
+id = "picasso_job"
+subject = "Pablo Picasso"
+kind = "person"
+true = "was a painter"
+false = ["was a sailor", "was a dentist"]
+
+[[row]]
+id = "newton_job"
+subject = "Isaac Newton"
+kind = "person"
+true = "was a scientist"
+false = ["was a pirate", "was a dancer"]
+
+[[row]]
+id = "curie_job"
+subject = "Marie Curie"
+kind = "person"
+true = "was a scientist"
+false = ["was a queen of France", "was a singer"]
+
+[[row]]
+id = "caesar_job"
+subject = "Julius Caesar"
+kind = "person"
+true = "was a Roman leader"
+false = ["was a Japanese emperor", "was an astronaut"]
+
+[[row]]
+id = "cleopatra_job"
+subject = "Cleopatra"
+kind = "person"
+true = "was a queen of Egypt"
+false = ["was a queen of Sweden", "was a scientist"]
+
+[[row]]
+id = "armstrong_moon"
+subject = "Neil Armstrong"
+kind = "person"
+true = ["walked on the Moon", "did not walk on the Moon"]
+false = [["walked on Mars", "did not walk on Mars"], ["was a pharaoh", "was not a pharaoh"]]
+
+[[row]]
+id = "gandhi_country"
+subject = "Mahatma Gandhi"
+kind = "person"
+true = "was a leader in India"
+false = ["was a leader in Canada", "was a king of Spain"]
+
+[[row]]
+id = "galileo_job"
+subject = "Galileo Galilei"
+kind = "person"
+true = "was an astronomer"
+false = ["was a footballer", "was a pilot"]
+
+[[row]]
+id = "darwin_job"
+subject = "Charles Darwin"
+kind = "person"
+true = "was a naturalist"
+false = ["was a king of England", "was a pop singer"]

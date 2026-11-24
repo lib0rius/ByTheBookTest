@@ -1,0 +1,22 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Claudio Martines
+
+The following parts of this repository are licensed under the Creative Commons Attribution 4.0
+International License:
+
+- data/tables/   the curated tables of well-known facts
+- dataset/       the released dataset
+- results/       the answers of the tested model and the measures
+- article/       the article and its figures
+
+You are free to share and adapt this material for any purpose, even commercially, as long as you give
+appropriate credit, provide a link to the license, and indicate if changes were made.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Suggested credit:
+Martines, C. (2026). ByTheBookTest: does a model follow the rulebook, or what it already knows?
+https://github.com/lib0rius/ByTheBookTest
+
+The code (src/, tests/, scripts/, configs/) is licensed under the Apache License 2.0: see LICENSE.

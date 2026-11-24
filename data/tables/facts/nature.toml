@@ -1,0 +1,369 @@
+# Curated table - nature.
+category = "nature"
+
+# --- sky and planets ---------------------------------------------------------------------------
+
+[[row]]
+id = "sun_type"
+subject = "the Sun"
+true = "is a star"
+false = ["is a planet", "is a moon"]
+
+[[row]]
+id = "sun_rises"
+subject = "the Sun"
+true = "rises once a day"
+false = ["rises twice a day", "rises once a year"]
+
+[[row]]
+id = "sun_temperature"
+subject = "the Sun"
+true = "is hot"
+false = ["is cold", "is frozen"]
+
+[[row]]
+id = "sun_rises_east"
+subject = "the Sun"
+true = "rises in the east"
+false = ["rises in the west"]
+
+[[row]]
+id = "moon_orbits"
+subject = "the Moon"
+true = "orbits the Earth"
+false = ["orbits Mars", "orbits Jupiter"]
+
+[[row]]
+id = "earth_orbits"
+subject = "the Earth"
+true = "orbits the Sun"
+false = ["orbits the Moon", "orbits Mars"]
+
+[[row]]
+id = "earth_shape"
+subject = "the Earth"
+true = "is round"
+false = ["is flat", "is a cube"]
+
+[[row]]
+id = "earth_moons"
+subject = "the Earth"
+true = "has one moon"
+false = ["has ten moons", ["has no moon", "has a moon"]]
+
+[[row]]
+id = "mars_type"
+subject = "Mars"
+true = "is a planet"
+false = ["is a star", "is a comet"]
+
+[[row]]
+id = "mars_colour"
+subject = "Mars"
+true = "is red"
+false = ["is green", "is white"]
+
+[[row]]
+id = "jupiter_size"
+subject = "Jupiter"
+true = "is the largest planet in the Solar System"
+false = ["is the smallest planet in the Solar System"]
+
+[[row]]
+id = "saturn_rings"
+subject = "Saturn"
+true = "has rings"
+false = [["has no rings", "has some rings"]]
+
+[[row]]
+id = "moon_light"
+subject = "the Moon"
+true = "reflects the light of the Sun"
+false = ["produces its own light"]
+
+# --- animals -----------------------------------------------------------------------------------
+
+[[row]]
+id = "whale_class"
+subject = "the blue whale"
+true = "is a mammal"
+false = ["is a fish", "is a bird"]
+
+[[row]]
+id = "dolphin_class"
+subject = "a dolphin"
+true = "is a mammal"
+false = ["is a fish", "is an insect"]
+
+[[row]]
+id = "bat_class"
+subject = "a bat"
+true = "is a mammal"
+false = ["is a bird", "is a fish"]
+
+[[row]]
+id = "penguin_class"
+subject = "a penguin"
+true = "is a bird"
+false = ["is a fish", "is a mammal"]
+
+[[row]]
+id = "shark_class"
+subject = "a shark"
+true = "is a fish"
+false = ["is a mammal", "is a bird"]
+
+[[row]]
+id = "frog_class"
+subject = "a frog"
+true = "is an amphibian"
+false = ["is a bird", "is a mammal"]
+
+[[row]]
+id = "snake_class"
+subject = "a snake"
+true = "is a reptile"
+false = ["is a mammal", "is a bird"]
+
+[[row]]
+id = "spider_legs"
+subject = "a spider"
+true = "has eight legs"
+false = ["has six legs", "has two legs"]
+
+[[row]]
+id = "ant_legs"
+subject = "an ant"
+true = "has six legs"
+false = ["has eight legs", "has four legs"]
+
+[[row]]
+id = "dog_legs"
+subject = "a dog"
+true = "has four legs"
+false = ["has six legs", "has two legs"]
+
+[[row]]
+id = "bird_wings"
+subject = "a sparrow"
+true = "has two wings"
+false = ["has four wings", ["has no wings", "has some wings"]]
+
+[[row]]
+id = "lion_diet"
+subject = "a lion"
+true = "eats meat"
+false = ["eats only grass", "eats only fruit"]
+
+[[row]]
+id = "cow_diet"
+subject = "a cow"
+true = "eats grass"
+false = ["eats meat", "eats fish"]
+
+[[row]]
+id = "panda_diet"
+subject = "a giant panda"
+true = "eats bamboo"
+false = ["eats fish", "eats meat"]
+
+[[row]]
+id = "cow_sound"
+subject = "a cow"
+true = "says moo"
+false = ["says meow", "says woof"]
+
+[[row]]
+id = "cat_sound"
+subject = "a cat"
+true = "says meow"
+false = ["says moo", "says quack"]
+
+[[row]]
+id = "duck_sound"
+subject = "a duck"
+true = "says quack"
+false = ["says moo", "says woof"]
+
+[[row]]
+id = "polar_bear_home"
+subject = "a polar bear"
+true = "lives in the Arctic"
+false = ["lives in the Sahara", "lives in the Amazon rainforest"]
+
+[[row]]
+id = "camel_home"
+subject = "a camel"
+true = "lives in the desert"
+false = ["lives in the ocean", "lives at the North Pole"]
+
+[[row]]
+id = "kangaroo_home"
+subject = "a kangaroo"
+true = "lives in Australia"
+false = ["lives in Norway", "lives in Antarctica"]
+
+[[row]]
+id = "hen_eggs"
+subject = "a hen"
+true = "lays eggs"
+false = ["gives birth to puppies"]
+
+[[row]]
+id = "bees_honey"
+subject = "a honeybee"
+true = "makes honey"
+false = ["makes milk", "makes silk"]
+
+[[row]]
+id = "caterpillar"
+subject = "a caterpillar"
+true = "becomes a butterfly"
+false = ["becomes a bird", "becomes a fish"]
+
+[[row]]
+id = "elephant_size"
+subject = "an elephant"
+true = "is bigger than a mouse"
+false = ["is smaller than a mouse"]
+
+[[row]]
+id = "giraffe_neck"
+subject = "a giraffe"
+true = "has a long neck"
+false = [["has no neck", "has a neck"], "has a very short neck"]
+
+[[row]]
+id = "zebra_stripes"
+subject = "a zebra"
+true = "has black and white stripes"
+false = ["has green and yellow stripes"]
+
+[[row]]
+id = "fish_breathing"
+subject = "a fish"
+true = "breathes through gills"
+false = ["breathes through lungs only"]
+
+# --- plants, matter, weather -------------------------------------------------------------------
+
+[[row]]
+id = "grass_colour"
+subject = "grass"
+true = "is green"
+false = ["is blue", "is black"]
+
+[[row]]
+id = "snow_colour"
+subject = "snow"
+true = "is white"
+false = ["is black", "is green"]
+
+[[row]]
+id = "sky_colour"
+subject = "the daytime sky on a clear day"
+true = "is blue"
+false = ["is green", "is purple"]
+
+[[row]]
+id = "blood_colour"
+subject = "human blood"
+true = "is red"
+false = ["is blue", "is green"]
+
+[[row]]
+id = "banana_colour"
+subject = "a ripe banana"
+true = "is yellow"
+false = ["is blue", "is purple"]
+
+[[row]]
+id = "coal_colour"
+subject = "coal"
+true = "is black"
+false = ["is white", "is pink"]
+
+[[row]]
+id = "ice_temperature"
+subject = "ice"
+true = "is cold"
+false = ["is hot"]
+
+[[row]]
+id = "fire_temperature"
+subject = "fire"
+true = "is hot"
+false = ["is cold"]
+
+[[row]]
+id = "cactus_home"
+subject = "a cactus"
+true = "grows in the desert"
+false = ["grows under the sea"]
+
+[[row]]
+id = "oak_seed"
+subject = "an oak tree"
+true = "grows from an acorn"
+false = ["grows from a stone", "grows from an egg"]
+
+[[row]]
+id = "plants_light"
+subject = "a plant"
+true = "needs sunlight to grow"
+false = ["grows best in total darkness"]
+
+[[row]]
+id = "volcano_lava"
+subject = "a volcano"
+true = "erupts lava"
+false = ["erupts ice", "erupts milk"]
+
+[[row]]
+id = "rain_water"
+subject = "rain"
+true = "is made of water"
+false = ["is made of sand", "is made of oil"]
+
+[[row]]
+id = "ocean_salt"
+subject = "seawater"
+true = "is salty"
+false = ["is sweet"]
+
+[[row]]
+id = "antarctica_ice"
+subject = "Antarctica"
+true = "is covered in ice"
+false = ["is covered in jungle", "is covered in sand"]
+
+[[row]]
+id = "human_heart"
+subject = "the human heart"
+true = "pumps blood"
+false = ["pumps air", "digests food"]
+
+[[row]]
+id = "human_legs"
+subject = "a human"
+kind = "person"
+true = "has two legs"
+false = ["has six legs", "has four legs"]
+
+[[row]]
+id = "lightning_thunder"
+subject = "lightning"
+true = "is followed by thunder"
+false = ["is followed by snow"]
+
+[[row]]
+id = "rainbow_colours"
+subject = "a rainbow"
+true = "has many colours"
+false = ["has only one colour"]
+
+[[row]]
+id = "water_wet"
+subject = "water"
+true = "is wet"
+false = ["is dry"]

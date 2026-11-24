@@ -1,0 +1,171 @@
+{
+  "generator_version": "0.1.0",
+  "z3_version": "5.4.1",
+  "seed": 42,
+  "config": {
+    "seed": 42,
+    "level": {
+      "2": {
+        "kbs": 4,
+        "claims_per_cell": 100,
+        "noise_ratio": 0.5,
+        "groups": [
+          "direct_fact",
+          "rule_chain",
+          "modal",
+          "negation",
+          "conjunction",
+          "disjunction",
+          "iff",
+          "exception",
+          "time"
+        ]
+      }
+    }
+  },
+  "tables_sha256": "494382072eeb8976e41c48b2065d4984a1a7b0dd157005e747a15ccb48b57776",
+  "kbs": {
+    "L2-KB1": {
+      "statements": 764,
+      "claims": 225,
+      "rebuilt": 0
+    },
+    "L2-KB2": {
+      "statements": 751,
+      "claims": 225,
+      "rebuilt": 0
+    },
+    "L2-KB3": {
+      "statements": 761,
+      "claims": 225,
+      "rebuilt": 0
+    },
+    "L2-KB4": {
+      "statements": 752,
+      "claims": 225,
+      "rebuilt": 1
+    }
+  },
+  "claims_total": 900,
+  "counts": {
+    "L2/conjunction/FALSE/agree": 5,
+    "L2/conjunction/FALSE/conflict": 18,
+    "L2/conjunction/FALSE/neutral": 10,
+    "L2/conjunction/TRUE/agree": 5,
+    "L2/conjunction/TRUE/conflict": 18,
+    "L2/conjunction/TRUE/neutral": 10,
+    "L2/conjunction/UNKNOWN/neutral": 10,
+    "L2/conjunction/UNKNOWN/unsupported_false": 12,
+    "L2/conjunction/UNKNOWN/unsupported_true": 12,
+    "L2/direct_fact/FALSE/agree": 5,
+    "L2/direct_fact/FALSE/conflict": 18,
+    "L2/direct_fact/FALSE/neutral": 10,
+    "L2/direct_fact/TRUE/agree": 5,
+    "L2/direct_fact/TRUE/conflict": 18,
+    "L2/direct_fact/TRUE/neutral": 10,
+    "L2/direct_fact/UNKNOWN/neutral": 10,
+    "L2/direct_fact/UNKNOWN/unsupported_false": 12,
+    "L2/direct_fact/UNKNOWN/unsupported_true": 12,
+    "L2/disjunction/FALSE/agree": 5,
+    "L2/disjunction/FALSE/conflict": 18,
+    "L2/disjunction/FALSE/neutral": 10,
+    "L2/disjunction/TRUE/agree": 5,
+    "L2/disjunction/TRUE/conflict": 18,
+    "L2/disjunction/TRUE/neutral": 10,
+    "L2/disjunction/UNKNOWN/neutral": 10,
+    "L2/disjunction/UNKNOWN/unsupported_false": 12,
+    "L2/disjunction/UNKNOWN/unsupported_true": 12,
+    "L2/exception/FALSE/agree": 5,
+    "L2/exception/FALSE/conflict": 18,
+    "L2/exception/FALSE/neutral": 10,
+    "L2/exception/TRUE/agree": 5,
+    "L2/exception/TRUE/conflict": 18,
+    "L2/exception/TRUE/neutral": 10,
+    "L2/exception/UNKNOWN/neutral": 10,
+    "L2/exception/UNKNOWN/unsupported_false": 12,
+    "L2/exception/UNKNOWN/unsupported_true": 12,
+    "L2/iff/FALSE/agree": 5,
+    "L2/iff/FALSE/conflict": 18,
+    "L2/iff/FALSE/neutral": 10,
+    "L2/iff/TRUE/agree": 5,
+    "L2/iff/TRUE/conflict": 18,
+    "L2/iff/TRUE/neutral": 10,
+    "L2/iff/UNKNOWN/neutral": 10,
+    "L2/iff/UNKNOWN/unsupported_false": 12,
+    "L2/iff/UNKNOWN/unsupported_true": 12,
+    "L2/modal/FALSE/agree": 5,
+    "L2/modal/FALSE/conflict": 18,
+    "L2/modal/FALSE/neutral": 10,
+    "L2/modal/TRUE/agree": 5,
+    "L2/modal/TRUE/conflict": 18,
+    "L2/modal/TRUE/neutral": 10,
+    "L2/modal/UNKNOWN/neutral": 10,
+    "L2/modal/UNKNOWN/unsupported_false": 12,
+    "L2/modal/UNKNOWN/unsupported_true": 12,
+    "L2/negation/FALSE/agree": 5,
+    "L2/negation/FALSE/conflict": 18,
+    "L2/negation/FALSE/neutral": 10,
+    "L2/negation/TRUE/agree": 5,
+    "L2/negation/TRUE/conflict": 18,
+    "L2/negation/TRUE/neutral": 10,
+    "L2/negation/UNKNOWN/neutral": 10,
+    "L2/negation/UNKNOWN/unsupported_false": 12,
+    "L2/negation/UNKNOWN/unsupported_true": 12,
+    "L2/rule_chain/FALSE/agree": 5,
+    "L2/rule_chain/FALSE/conflict": 18,
+    "L2/rule_chain/FALSE/neutral": 10,
+    "L2/rule_chain/TRUE/agree": 5,
+    "L2/rule_chain/TRUE/conflict": 18,
+    "L2/rule_chain/TRUE/neutral": 10,
+    "L2/rule_chain/UNKNOWN/neutral": 10,
+    "L2/rule_chain/UNKNOWN/unsupported_false": 12,
+    "L2/rule_chain/UNKNOWN/unsupported_true": 12,
+    "L2/time/FALSE/agree": 5,
+    "L2/time/FALSE/conflict": 18,
+    "L2/time/FALSE/neutral": 10,
+    "L2/time/TRUE/agree": 5,
+    "L2/time/TRUE/conflict": 18,
+    "L2/time/TRUE/neutral": 10,
+    "L2/time/UNKNOWN/neutral": 10,
+    "L2/time/UNKNOWN/unsupported_false": 12,
+    "L2/time/UNKNOWN/unsupported_true": 12
+  },
+  "prune": {
+    "source": "out/level2",
+    "source_manifest_sha256": "ddd9b6e22c0827dc0f29ff179bfb372aa13943ae194cb20e177ba9dd292d7ff2",
+    "source_kbs_sha256": "d44eeb8a0cd72b23617c394e5c6b45132279de8baaa84337933749b583880b7d",
+    "noise_ratio": 0.1,
+    "rng": "random.Random(f'{seed}-{kb_id}-prune-{noise_ratio}')",
+    "prune_code_sha256": "ee082bcdec34a85dd482eab738da8d3249a3d4be5cbe9eac9414be68b538ebbb",
+    "kbs": {
+      "L2-KB1": {
+        "useful": 688,
+        "noise_before": 688,
+        "noise_after": 76,
+        "removed": 612,
+        "statements": 764
+      },
+      "L2-KB2": {
+        "useful": 676,
+        "noise_before": 676,
+        "noise_after": 75,
+        "removed": 601,
+        "statements": 751
+      },
+      "L2-KB3": {
+        "useful": 685,
+        "noise_before": 685,
+        "noise_after": 76,
+        "removed": 609,
+        "statements": 761
+      },
+      "L2-KB4": {
+        "useful": 677,
+        "noise_before": 677,
+        "noise_after": 75,
+        "removed": 602,
+        "statements": 752
+      }
+    }
+  }
+}

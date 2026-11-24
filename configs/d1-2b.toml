@@ -1,0 +1,25 @@
+# d1-2B by Liquid AI: a decision model ("System One") served by llama-server on /v1/systemone, without
+# thinking. Context up to 128,000 tokens, so every level fits. Datasets: Level 1, Level 2 pruned to 10%
+# noise, Level 3 pruned to 20% noise.
+
+run_id = "d1-2b"
+out = "runs"
+datasets = ["dataset/level1", "dataset/level2-noise10", "dataset/level3-noise20"]
+seed = 42
+claim_timeout_s = 900
+
+[server]
+binary = "llama-server"
+ctx_size = 128000
+parallel = 4
+reasoning = false
+# llama-server disables the prompt cache for decision models; it is turned back on here.
+# d1-2B wants the whole input in a single batch: -b and -ub at least as large as the longest claim. Up to
+# -ub 32768 everything stays on the GPU; from 49152 one operation per layer moves to the CPU. Hence
+# inputs of up to 32,768 tokens.
+extra_args = ["--cache-ram", "8192", "-b", "32768", "-ub", "32768", "-fa", "on"]
+
+[[models]]
+name = "d1-2B"
+path = "models/d1-2B-Q8_0.gguf"
+kind = "systemone"

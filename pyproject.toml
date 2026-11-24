@@ -1,0 +1,83 @@
+[project]
+name = "bythebooktest"
+version = "0.1.0"
+description = "Does a model follow the rulebook, or what it already knows? Test datasets where a rulebook contradicts world knowledge, with every answer checked by Z3."
+readme = "README.md"
+license = "Apache-2.0"
+authors = [{ name = "Claudio Martines" }]
+requires-python = ">=3.12"
+keywords = ["llm", "benchmark", "evaluation", "knowledge conflict", "rag", "z3", "llama.cpp"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "z3-solver==5.4.1.0",
+    "pydantic==2.14.3",
+    "inflect==7.6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==9.2.0", "ruff==0.17.6", "mypy==2.4.1"]
+analysis = ["scikit-learn==1.9.1", "scipy==1.18.1"]
+
+[project.scripts]
+bythebooktest = "bythebooktest.cli:main"
+
+[project.urls]
+Repository = "https://github.com/lib0rius/ByTheBookTest"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = [
+    "E", "W",   # pycodestyle
+    "F",        # pyflakes
+    "I",        # import order
+    "B",        # common bugs
+    "UP",       # modern syntax
+    "SIM",      # simpler code
+    "D",        # docstrings
+    "RUF",      # ruff's own rules
+]
+ignore = [
+    "D100", "D104", "D105", "D107",  # module, package and dunder docstrings are not required
+    "D102", "D103",                  # public methods and functions: documented where it helps
+    "D203", "D213",                  # docstring layout: Google style (D211, D212)
+    "D205", "D415",                  # one-line summaries may run on to a second line
+    "E731",                          # small lambdas are fine
+    "B905",                          # zip() over lists of equal length by construction
+    "RUF001", "RUF002", "RUF003",    # typographic quotes and dashes are intended
+    "SIM108",                        # explicit if/else is often clearer
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["D"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.mypy]
+python_version = "3.12"
+packages = ["bythebooktest"]
+mypy_path = "src"
+ignore_missing_imports = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+check_untyped_defs = true

@@ -1,0 +1,8 @@
+# Level 1 (short rulebooks): 4 rulebooks, 100 claims per reasoning group, no noise.
+seed = 42
+
+[level.1]
+kbs = 4
+claims_per_cell = 100
+noise_ratio = 0.0
+groups = ["direct_fact", "rule_chain", "modal"]
