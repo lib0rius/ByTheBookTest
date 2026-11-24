@@ -12,7 +12,7 @@ All notable changes to the ByTheBookTest protocol, its generator and the release
 
 Every entry says whether results stay comparable with the previous version.
 
-## [0.1.0] — unreleased
+## [0.1.0] — 2026-11-24
 
 First public version.
 
